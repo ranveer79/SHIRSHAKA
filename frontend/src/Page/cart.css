@@ -1,0 +1,41 @@
+.userbox{
+    height: 100px;
+ 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 55%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+}
+
+.userbox div{
+    text-align: left;
+}
+.userbox span{
+    color :teal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 650px){
+
+    .userbox{
+        height: auto;
+     
+ 
+        width: 90%;
+        
+        display: grid;
+        gap: 10px;
+    }
+    .userbox>div{
+        display: grid;
+        gap: 10px;
+    }
+}
